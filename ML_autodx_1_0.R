@@ -146,3 +146,8 @@ apply(dep_react,2, sd)
 apply(dep_react,2, min)
 apply(dep_react,2, max)
 apply(dep_react,2, function(x) sum(is.na(x)))
+
+write.csv(alcohol, "./data/processed/alcohol.csv")
+write.csv(tabaco, "./data/processed/tabaco.csv")
+write.csv(ansi, "./data/processed/ansiedad.csv")
+write.csv(depre, "./data/processed/depresion.csv")
